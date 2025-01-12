@@ -7,7 +7,7 @@ const Crypto = () => {
   useEffect(() => {
     const fetchCryptos = async () => {
       try {
-        const response = await axios.get(`https://financialmodelingprep.com/api/v3/cryptocurrencies?apikey=Y6SVioCOvDkJ5bWR4us5sD6uFNQ9Slef`);
+        const response = await axios.get(` https://financialmodelingprep.com/api/v3/symbol/available-cryptocurrencies?apikey=Y6SVioCOvDkJ5bWR4us5sD6uFNQ9Slef`);
         setCryptos(response.data);
       } catch (error) {
         console.error('Error fetching cryptos:', error);
