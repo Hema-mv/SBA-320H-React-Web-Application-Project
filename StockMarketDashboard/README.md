@@ -11,6 +11,20 @@ The Stock Market Dashboard is a web application that allows users to search for 
 - **Alerts**: View alerts related to stocks.
 - **Dashboard**: View a default chart grid with sample data.
 
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Redux**: A predictable state container for JavaScript apps.
+- **React-Redux**: Official React bindings for Redux.
+- **Recharts**: A charting library for React.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **Styled-Components**: A library for styling React components using tagged template literals.
+- **Vite**: A fast build tool and development server for modern web projects.
+## Approach Taken
+
+The application is built using React 
+
+## LiveState
 
 ## Installation
 
